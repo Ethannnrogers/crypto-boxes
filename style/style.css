@@ -3,6 +3,12 @@ body {
     padding: 0;
     width: 100%;
     height: 100%;
+    
+}
+
+html {
+    min-height: 100vh;
+    position: relative;
 }
 
 
@@ -20,6 +26,7 @@ body {
 #boxes {
     height: auto;
     width: auto;
+    margin-bottom: 100px;
 }
 
 .box {
@@ -90,12 +97,12 @@ body {
 /* ======= Footer ======= */
 
 footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     height: 50px;
     width: 100%;
     background-color: rgb(243, 243, 243);
-    margin-top: 20px;
-    position: relative;
-    bottom: 0;
 }
 
 footer .col {

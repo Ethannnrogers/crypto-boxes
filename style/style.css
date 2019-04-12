@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ======= Title ======= */
+
+#title {
+    margin: 40px 0 40px 0;
+}
+
+/* ===================== */
+
+
+/* ======= Boxes ======= */
+
+#boxes {
+    height: auto;
+    width: auto;
+}
+
+.box {
+    border: 1px solid rgba(0, 72, 255, 0.63);
+    border-radius: 25px;
+    height: auto;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 0 3px 5px rgba(119, 119, 119, 0.637);
+    -moz-box-shadow: 0 3px 5px rgba(119, 119, 119, 0.637);
+    box-shadow: 0 3px 5px rgba(119, 119, 119, 0.637)
+}
+
+.box-title {
+    background-color: rgba(0, 72, 255, 0.63);
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+    color: white;
+}
+
+.coin-title {
+    padding: 8px 0 8px 0;
+}
+
+.box-icon {
+    height: 40px;
+    width: auto;
+    margin-right: 5px;
+}
+
+.box-table {
+    border: 1px solid rgb(247, 247, 247);
+    width: 97%;
+}
+
+.box-table-item {
+    border: 1px solid rgb(247, 247, 247);
+    padding: 4px 0 4px 2px;
+}
+
+.box-desc {
+    border-radius: 4px;
+    background-color: rgb(247, 247, 247);
+    width: 97%;
+    margin-top: 10px;
+    height: auto;
+    padding-top: 10px;
+    border: 1px solid rgb(241, 241, 241);
+}
+
+.btn-cont {
+    margin: 20px 0 20px 0;
+}
+
+.bttnn {
+    background-color: rgba(0, 72, 255, 0.63);
+    color: white;
+    width: 49%;
+}
+
+.bttnn:hover {
+    color: white;
+    background-color: rgba(0, 72, 255, 0.836);
+}
+
+*:focus {
+    outline: none !important;
+    background-color: rgba(0, 72, 255, 0.836);   
+}
+
+/* ===================== */

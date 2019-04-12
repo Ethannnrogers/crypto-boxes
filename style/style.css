@@ -24,7 +24,6 @@ body {
 
 .box {
     border: 1px solid rgba(0, 72, 255, 0.63);
-    /* border-radius: 25px; */
     height: auto;
     margin-bottom: 15px;
     -webkit-box-shadow: 0 3px 5px rgba(119, 119, 119, 0.637);
@@ -34,8 +33,6 @@ body {
 
 .box-title {
     background-color: rgba(0, 72, 255, 0.63);
-    /* border-top-left-radius: 23px;
-    border-top-right-radius: 23px; */
     color: white;
 }
 
@@ -61,12 +58,9 @@ body {
 
 .box-desc {
     border-radius: 4px;
-    /* background-color: rgb(247, 247, 247);
-    border: 1px solid rgb(241, 241, 241); */
     width: 97%;
     margin-top: 10px;
     height: auto;
-    /* padding-top: 10px; */
 }
 
 .btn-cont {
@@ -78,7 +72,7 @@ body {
     color: white;
     width: 100%;
     border-radius: 0;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
 }
 
 .bttnn:hover {
@@ -89,6 +83,27 @@ body {
 *:focus {
     outline: none !important;
     background-color: rgba(0, 72, 255, 0.836);   
+}
+
+/* ===================== */
+
+
+
+/* ======= Footer ======= */
+
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    margin-top: 20px;
+}
+
+footer .col {
+    padding-top: 15px;
+}
+
+footer a {
+    color: inherit!important;
 }
 
 /* ===================== */

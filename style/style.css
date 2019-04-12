@@ -87,8 +87,6 @@ body {
 
 /* ===================== */
 
-
-
 /* ======= Footer ======= */
 
 footer {
@@ -96,6 +94,8 @@ footer {
     width: 100%;
     background-color: rgb(243, 243, 243);
     margin-top: 20px;
+    position: relative;
+    bottom: 0;
 }
 
 footer .col {
